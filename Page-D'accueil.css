@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(233, 244, 253);
+}
+p {
+    text-align: center; /* aligne au milieux tout les paragraphes*/
+    color: rgb(0, 0, 0); /*couleur des paragraphes*/
+}
+
+
+a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: rgb(255, 255, 255); /* couleur de la typo des boutons */
+    padding: 5px 3px; /* espacement des boutons*/
+    text-align: center;
+}
+
+ p {
+    padding-bottom: px; /* Ajustez la valeur selon vos besoins */
+}
+
+h1 {
+    padding-left: 15%;  /* espacement par rapport à gauche */
+    padding-top: 15%; /* espacement par rapport au haut */
+    padding-bottom: 3%;
+}
+
+h2 {
+    font-size: 75%; /* taille de la typo */
+    font-weight: bold; /* typo est en gras*/
+    text-align: center;
+    padding-top: 4%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 300%;
+}
+
+h4 {
+    font-weight: bold; /* typo est en gras */
+    padding-top: 5%;
+    font-size: 200%;
+padding-left: 10%;
+}
+
+h5 {
+    font-weight: bold; /* typo est en gras */
+    padding-top: 5%;
+    font-size: 200%;
+    padding-left: 6%;
+}
+h6{
+    padding-left: 100%;
+    font-weight: bold; /* typo est en gras */
+    padding-top: 5%;
+    font-size: 200%;
+}
+button {
+    background-color: #ff8800; /* Couleur de fond */
+    color: rgb(255, 102, 0); /* Couleur du texte */
+    border: none; /* Enlever la bordure */
+    padding: 10px 20px; /* Espacement interne (padding) */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Enlever le soulignement */
+    display: inline-block; /* Met le bouton en ligne */
+    font-size: 16px; 
+    font-weight: bold; /* Met le texte en gras */
+    margin: 20px 0; /* Espacement externe (marge) */
+    cursor: pointer; /* Change le curseur en forme de main */
+
+}
+.special-text {
+    
+    font-size: 20px;
+    color: #333;
+        line-height: 1.5; /* Hauteur de ligne pour espacer le texte */
+        
+    text-align: justify; /* Justifier le texte */
+    }
+
+    .grayscale-image {
+        filter: grayscale(30%); /* Applique le filtre de gris à 100% */
+        height: 75%; /* Ajuste la hauteur à 75% pour enlever 1/4 du bas */
+        object-fit: cover; /* Remplit l'espace sans déformer l'image */
+}
+.white-text {
+    color: aliceblue; /* balise pour colorer une partie du texte */
+}
+
+.black-text {
+    color: rgb(0, 0, 0); 
+}
+
+.row > div {
+    padding: 0; /
+}
+
+.image-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; /
+}
+
+.responsive-image {
+    width: 48%; /* Ajustez la largeur  */
+    margin-right: 2%; /* Espace entre les images */
+}
+
+.responsive-image:last-child {
+    margin-right: 0; /* Supprime la marge pour la dernière image */
+}
+
+.image-container {
+    
+    
+    position: relative; /* Nécessaire pour positionner le texte par rapport à l'image */
+        
+        wid
+    width: 100%; /* Ajuste selon tes besoins */
+    }
+    
+    .grayscale-image {
+        width: 100%; /* Assure-toi que l'image prend toute la largeur du conteneur */
+        filter: grayscale(100%); /* Applique le filtre de gris à 100% */
+    }
+    
+    .overlay-text {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); /* Centre le texte */
+        color: rgb(235, 235, 235);
+    font-size: 24px; /* Ajuste la taille de la police selon tes besoins */
+        text-align: center; /* Centre le texte */
+        font-size: 230%;    
+    }
+    .text-left {
+       text-align: left;/* Aligne le texte à gauche */
+    }
+    background-image {
+        background-image: url('homme-carton-camionnette.webp'); 
+        background-size: cover; 
+        background-position: center; 
+        padding: 50px; 
+        color: white; 
+        text-align: center; 
